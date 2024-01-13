@@ -26,4 +26,24 @@ elif n1<n2:
     print(f'{n2},{n1}')
 else :
     print(':Ошибка')
-
+#ex3
+num1 = int(input("Введите 1 число:"))
+num2 = int(input("Введите 2 число "))
+print("1. + ")
+print("3. - ")
+print('3. * ')
+print('4. / ')
+choice=int(input(":Выберите опперацию "))
+if choice == 1:
+    result = (num1 + num2)
+    print(result)
+elif choice == 2:
+    result = (num1 - num2)
+    print(result)
+elif choice == 3:
+    result = (num1 * num2)
+    print(result)
+elif choice == 4:
+    result = ( num1 / num2)
+else:
+    print(':Некоректный ввод'
