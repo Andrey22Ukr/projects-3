@@ -1,3 +1,4 @@
+#ex1
 user_select = int(input('Enter a number: '))
 if user_select == 1:
     print (":Понеделтник")
